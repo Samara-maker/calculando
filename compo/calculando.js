@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-native";
+import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import styles from "../styles/style";
 
-export default function App() {
+export default function CalculadoraView() {
   const [numero1, setNumero1] = useState("");
   const [numero2, setNumero2] = useState("");
   const [resultado, setResultado] = useState("");
